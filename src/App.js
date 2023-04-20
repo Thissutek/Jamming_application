@@ -1,6 +1,9 @@
+import React from 'react'
 import './App.css';
 import Header from './Header';
-import Body from './Body';
+import Api from './Api';
+import SearchBar from './Components/SearchBar';
+import SearchResults from './Components/SearchResults';
 
 function App() {
   return (
@@ -15,8 +18,12 @@ function App() {
         >
           Spotity Playlist Creator
         </a>
-        <Body />
+        
       </header>
+      <body className='App-Body'>
+        <SearchBar className='Search'/>
+        <SearchResults />
+      </body>
     </div>
   );
 }
