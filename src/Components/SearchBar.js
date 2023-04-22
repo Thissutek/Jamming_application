@@ -1,12 +1,13 @@
-import { render } from '@testing-library/react';
 import React from 'react';
+import './SearchBar.css'
 
-function SearchBar() {
+function SearchBar(props) {
     return(
-        <div>
-            <body>
-                <input type='text' placeholder='Search'/>
-            </body>
+        <div className='SearchBar'>
+            <input type='text' placeholder='Enter a Song Title'/>
+            <button className='SearchButton'>
+                Search
+            </button>
         </div>
     );
 };
