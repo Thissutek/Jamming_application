@@ -3,6 +3,7 @@ import './App.css';
 import Api from './Api';
 import SearchBar from './Components/SearchBar';
 import SearchResults from './Components/SearchResults';
+import Playlist from './Components/Playlist';
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
       <SearchBar />
       <div className='App-Playlist'>
         <SearchResults />
+        <Playlist />
       </div>
       </body>
     </div>
