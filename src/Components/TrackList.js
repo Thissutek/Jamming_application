@@ -1,12 +1,14 @@
 import React from 'react';
+
 import './TrackList.css';
+
 import Track from './Track';
 
 
 const TrackList = (props) => {
     return (
         <div className='TrackList'>
-            {props.track && props.tracks.map((track) => {
+            {props.tracks && props.tracks.map((track) => {
                 return (
                     <Track 
                     track={track}
