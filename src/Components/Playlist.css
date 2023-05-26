@@ -3,11 +3,13 @@
     flex-direction: column;
     align-items: center;
     overflow-y: scroll;
-    width: 37%;
+    width: 100%;
+    max-width: 800px;
+    height: auto;
     max-height: 950px;
     padding: 2.27rem 1.16rem;
     background-color: rgba(1, 12, 63, 0.7);
-    box-shadow: 0 4px 2px 2px #000000;
+    border-radius: 10px;
 }
 
 .Playlist input {
